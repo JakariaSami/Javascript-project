@@ -83,15 +83,10 @@ function rpsFrontEnd(humanImageChoice,botImageChoice,finalMessage) {
 		'paper' : document.getElementById('paper').src,
 		'scissors' : document.getElementById('scissors').src,
 	}
-	// document.getElementById('rock').remove();
-	// document.getElementById('paper').remove();
-	// document.getElementById('scissors').remove();
 
-// Customised
 var resultDiv = document.createElement('div')
 resultDiv.setAttribute('id', 'gameResult');
 document.querySelector('.container-3').appendChild(resultDiv)
-// END
 
 	var humanDiv = document.createElement('div');
 	var botDiv = document.createElement('div');
@@ -178,9 +173,9 @@ let blackjackGame= {
 
 const YOU = blackjackGame['you'];
 const DEALER= blackjackGame['dealer'];
-const hitSound = new Audio('C:/Users/pc/Documents/JavaScript/sounds/swish.m4a');
-const winSound = new Audio('C:/Users/pc/Documents/JavaScript/sounds/cash.mp3');
-const lossSound = new Audio('C:/Users/pc/Documents/JavaScript/sounds/aww.mp3');
+const hitSound = new Audio('sounds/swish.m4a');
+const winSound = new Audio('sounds/cash.mp3');
+const lossSound = new Audio('sounds/aww.mp3');
 
 
 document.querySelector('#blackjack-hit').addEventListener('click', blackjackHit);
