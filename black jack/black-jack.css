@@ -1,0 +1,67 @@
+* {margin:0; padding:0;}
+.container-2 img{width:250px;height:200px;}
+
+
+.container-1, .container-2, .container-3, .container-4, .container-5{
+	border:1px solid black;
+	margin:0 auto;
+	width:75%;
+	text-align:center;
+}
+.flex-box-container-1, .flex-box-container-2, .flex-box-rps, .flex-box-pick-color, .flex-blackjack-row-1, .flex-blackjack-row-2, .flex-blackjack-row-3{
+	display:flex;
+	border:1px solid black;
+	padding:10px;
+	flex-wrap:wrap;
+	justify-content:space-around;
+	flex-direction:row;
+}
+.flex-box-container-1 div {
+	padding:10px;
+	display:flex;
+	align-items: center;
+}
+
+/*Cat Generator*/
+.flex-box-container-2 img{
+	margin:10px;
+	box-shadow:0px 10px 50px #0000009e;
+}
+
+/*Rock Paper Scissor*/
+.flex-box-rps img:hover{
+	box-shadow:0px 10px 50px rgba(37, 50, 233, 1);
+}
+
+
+/*Customised*/
+#gameResult {
+	display:flex;
+	justify-content:space-around;
+	flex-wrap:wrap;
+	padding:10px;
+}  
+/*END*/
+
+/* BlackJack*/
+.flex-blackjack-row-1, .flex-blackjack-row-2 {
+	background:url('https://wallpapercave.com/wp/wp3348587.jpg');
+	background-repeat:no-repeat;
+	color:#ffffff;
+}
+.flex-blackjack-row-1 div{
+	border:1px solid black;
+	padding:10px;
+	text-align:center;
+	flex:1;
+	height:350px; 
+}
+.flex-blackjack-row-1 img{
+	width:25%;
+	padding:10px;
+}
+table, th, td {
+	border:1px solid black;
+	padding:5px;
+	text-align:center;
+}
